@@ -157,3 +157,65 @@ button {
     font-style: italic;
     color: #C1D631;
 }
+
+.action-container {
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.action-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #C1D631;
+    padding: 32px;
+    gap: 200px;
+    border-radius: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.action-h1 {
+    font-size: 32px;
+}
+
+.action-p {
+    font-style: italic;
+    margin: 0;
+}
+
+.action-button {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+}
+
+.action-a {
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    flex: auto;
+    background-color: #005030;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-p {
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 16px;
+}
